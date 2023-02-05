@@ -1,1 +1,2 @@
 # First-Official-Odin-Project
+This is officially the first Odin Project I am creating. I have learnt quite a lot such as the box model, positioning elements on a page, use of flex box, etc and I intend to make use of all of these in this project. I would create it exactly as asked and later on I would make edits to my own taste such as replacing the images, changing the write ups such as headings, info-content and so on. This would be fun.
