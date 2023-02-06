@@ -174,23 +174,25 @@ footer {
     flex-direction: column;
     background-color: white;
     margin-bottom: 550px;
+    color: #E5E7EB;;
 }
 
 .call_to_action {
     /* flex-grow: 1; */
     display: flex;
    justify-content: space-between;
-    background-color: purple;
+   background-color: #3882F6;
     padding: 70px;
     margin: 100px;
     border-radius: 5px;
 }
 
 footer button {
-    background-color: green;
+    background-color: #3882F6;
     padding: 10px 40px 10px 40px;
     border-radius: 5px;
     border-style: none;
     margin: 40px;
     margin-top: 20px;
+    border: 1px solid white;
 }
