@@ -2,8 +2,21 @@ html, body {
     box-sizing: border-box;
     height: 100%;
    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #1F2937;
+    
 }
 
+/* header {
+    background-color: green;
+    margin-top: -auto;
+    
+} */
 /* body {
     display: flex;
     flex-direction: column;
@@ -13,24 +26,31 @@ html, body {
 ul {
     display: flex;
     gap: 15px;
+    
 }
 
 li.logo {
     flex-grow: 1;
- 
+     color: #F9FAF8;
+     font-size: 24px;
 }
 
 li {
     list-style: none;
+    
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 li a {
     margin-right: 50px;
+    color: #E5E7EB;
+    font-size: 18PX;
 }
+
 
 .rectangle {
 height: 200px;
@@ -42,28 +62,49 @@ align-items: center;
 margin-right: 50px;
 }
 
-
+/* nav, .hero {
+    background-color: #1F2937;
+   
+} */
 
 .hero {
     display: flex;
-    margin-top: 80px;
+   color: white;
+   margin-top: 90px;
    margin-left: 40px;
    gap: 20px;
    
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 18PX;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
 }
 
 .hero button {
     padding: 10px;
     border: none;
     border-radius: 5px;
+   background-color: #3882F6;
 }
 
 h2 {
     text-align: center;
+    /* background-color: pink; */
+    position: absolute;
+    width: 100%;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 1000;
 }
 
 .body_content {
-    background-color: black;
+    
     color: white;
    
 }
@@ -72,8 +113,10 @@ h2 {
     display: flex;
    justify-content: center;
     gap: 20px;
-    background-color: blue;
+    margin-top: 40px;
+    background-color: white;
     padding: 50px;
+    margin-right: 0px;
 }
 
 .image {
@@ -81,7 +124,7 @@ h2 {
     width: 150px;
     height: 100px;
     border-radius: 10px;
-
+  margin-top: 40px;
 }
 
 /* .image4 {
@@ -98,17 +141,26 @@ h2 {
 .smaller_img_container p {
     text-align: center;
     margin-top: 9px;
+    color: black;
 }
 
 .body_content_2 {
     display: flex;
     flex-direction: column;
     
-    background-color: pink;
+    background-color: #E5E7EB;
     font-size: 20px;    
-    padding: 30px 360px 0px 360px;
-    font-style: italic;
+    padding: 50px 360px 0px 360px;
     
+    
+}
+
+.body_content_2 p {
+    color: #1F2937;
+    margin-top: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .author {
@@ -120,7 +172,7 @@ h2 {
 footer {
     display: flex;
     flex-direction: column;
-    
+    background-color: white;
     margin-bottom: 550px;
 }
 
