@@ -23,9 +23,20 @@ a {
 
 .rectangle {
 height: 200px;
-width: 300px;
+width: 600px;
 background-color: orange;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.hero {
+    display: flex;
+    margin-top: 80px;
+}
+
+.hero button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
