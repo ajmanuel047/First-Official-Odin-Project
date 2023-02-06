@@ -11,6 +11,7 @@ ul {
 
 li.logo {
     flex-grow: 1;
+ 
 }
 
 li {
@@ -21,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+li a {
+    margin-right: 50px;
+}
+
 .rectangle {
 height: 200px;
 width: 600px;
@@ -28,11 +33,15 @@ background-color: orange;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-right: 50px;
 }
 
 .hero {
     display: flex;
     margin-top: 80px;
+   margin-left: 40px;
+   gap: 20px;
+   
 }
 
 .hero button {
